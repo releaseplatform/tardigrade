@@ -1,0 +1,27 @@
+.container
+  width: 80%;
+  max-width: 740px;
+  margin: 0 auto;
+  display: block;
+
+.container-xs
+  @extend .container;
+  max-width: 500px;
+
+.container-sm
+  @extend .container;
+  max-width: 600px;
+
+.container-lg
+  @extend .container;
+  max-width: 800px;
+
+.container-xl
+  @extend .container;
+  max-width: 900px;
+
+.content
+  width: 100%;
+  max-width: none;
+  @media screen and (min-width: $bp-mid)
+    max-width: 640px;

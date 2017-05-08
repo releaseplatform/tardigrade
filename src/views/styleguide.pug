@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    link(
+      href='/dest/styles/style.css'
+      rel='stylesheet'
+      type='text/css'
+    )
+    meta(
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+      )  
+  body
+    include components/hero.pug
+    div(class="container-sm")
+      include components/form.pug
+      include components/sharing.pug 
+      include components/modal.pug
+    script(
+      src='/dest/scripts/main.js'   
+    )
+    

@@ -1,0 +1,24 @@
+{
+  "name": "smoochie",
+  "version": "0.0.1",
+  "description": "simple lil generator bb",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "page": "cd src/"
+  },
+  "author": "Jarvis Under",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.6.0",
+    "jquery": "^2.2.1",
+    "pug": "^2.0.0-beta11",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
